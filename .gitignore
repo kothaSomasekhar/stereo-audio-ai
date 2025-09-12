@@ -1,6 +1,16 @@
+# Ignore virtual environment
 venv/
+
+# Ignore Python cache
 __pycache__/
+*.pyc
+
+# Ignore output and data files
 outputs/
-*.mp4
-*.wav
+data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
 
